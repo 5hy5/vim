@@ -40,6 +40,7 @@
 :Pyimport	jedi-vim.txt	/*:Pyimport*
 :QuickRun	quickrun.txt	/*:QuickRun*
 :VimProcBang	vimproc.txt	/*:VimProcBang*
+:VimProcInstall	vimproc.txt	/*:VimProcInstall*
 :VimProcRead	vimproc.txt	/*:VimProcRead*
 :VimShell	vimshell.txt	/*:VimShell*
 :VimShellBufferDir	vimshell.txt	/*:VimShellBufferDir*
@@ -196,6 +197,7 @@ g:lightline.tabline	lightline.txt	/*g:lightline.tabline*
 g:lightline.tabline_separator	lightline.txt	/*g:lightline.tabline_separator*
 g:lightline.tabline_subseparator	lightline.txt	/*g:lightline.tabline_subseparator*
 g:loaded_indentLine	indentLine.txt	/*g:loaded_indentLine*
+g:neobundle#cache_file	neobundle.txt	/*g:neobundle#cache_file*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*
 g:neobundle#enable_name_conversion	neobundle.txt	/*g:neobundle#enable_name_conversion*
@@ -207,6 +209,7 @@ g:neobundle#types#git#clone_depth	neobundle.txt	/*g:neobundle#types#git#clone_de
 g:neobundle#types#git#command_path	neobundle.txt	/*g:neobundle#types#git#command_path*
 g:neobundle#types#git#default_protocol	neobundle.txt	/*g:neobundle#types#git#default_protocol*
 g:neobundle#types#git#enable_submodule	neobundle.txt	/*g:neobundle#types#git#enable_submodule*
+g:neobundle#types#git#pull_command	neobundle.txt	/*g:neobundle#types#git#pull_command*
 g:neobundle#types#hg#command_path	neobundle.txt	/*g:neobundle#types#hg#command_path*
 g:neobundle#types#hg#default_protocol	neobundle.txt	/*g:neobundle#types#hg#default_protocol*
 g:neobundle#types#raw#calc_hash_command	neobundle.txt	/*g:neobundle#types#raw#calc_hash_command*
@@ -442,6 +445,7 @@ neobundle#has_fresh_cache()	neobundle.txt	/*neobundle#has_fresh_cache()*
 neobundle#hooks	neobundle.txt	/*neobundle#hooks*
 neobundle#is_installed()	neobundle.txt	/*neobundle#is_installed()*
 neobundle#is_sourced()	neobundle.txt	/*neobundle#is_sourced()*
+neobundle#load_toml()	neobundle.txt	/*neobundle#load_toml()*
 neobundle#local()	neobundle.txt	/*neobundle#local()*
 neobundle#rc()	neobundle.txt	/*neobundle#rc()*
 neobundle#source()	neobundle.txt	/*neobundle#source()*
@@ -711,8 +715,6 @@ unite-action-neobundle-lazy	neobundle.txt	/*unite-action-neobundle-lazy*
 unite-action-neobundle-search	neobundle.txt	/*unite-action-neobundle-search*
 unite-kind-neobundle	neobundle.txt	/*unite-kind-neobundle*
 v_<C-Y>,	emmet.txt	/*v_<C-Y>,*
-v_<Plug>(vimshell_select_next_prompt)	vimshell.txt	/*v_<Plug>(vimshell_select_next_prompt)*
-v_<Plug>(vimshell_select_previous_prompt)	vimshell.txt	/*v_<Plug>(vimshell_select_previous_prompt)*
 v_vimshell_default_key_mappings	vimshell.txt	/*v_vimshell_default_key_mappings*
 vimproc	vimproc.txt	/*vimproc*
 vimproc#cmd#system()	vimproc.txt	/*vimproc#cmd#system()*
