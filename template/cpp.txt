@@ -1,0 +1,9 @@
+// by Shunsuke Hayase
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+	return 0;
+}
